@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import  './Main.css'
-import Zoom from 'react-reveal/Zoom';
 
 
 const myProjects=[
@@ -49,7 +48,7 @@ const Main = () => {
 
       <section className="right-section flex">
         {arr.map((item)=>{
-          return( <Zoom>
+          return( 
             <article key={item.index} className="card">
           <img width={265} src={item.imgPath} alt="" />
           <div style={{width:"265px"}} className="box">
@@ -67,7 +66,6 @@ const Main = () => {
             </div>
           </div>
         </article>
-        </Zoom>
           )
         })}
 
