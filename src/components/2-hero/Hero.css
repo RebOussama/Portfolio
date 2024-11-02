@@ -1,0 +1,63 @@
+section{
+    margin-top: 3rem;
+}
+section .left_section{
+    flex-grow: 1;
+}
+
+section .parent-avatar.flex{
+    color: var(--blue);
+     align-items: end;
+}
+section .left_section  img {
+width: 85px;
+border-radius: 50%;
+border: 1px solid var(--blue) ;
+background-color: wheat;
+}
+
+section .left_section .title{
+    color: var(--title);
+    margin: 0.8rem 0rem;
+    font-size: 1.8rem;
+}
+
+section .left_section .sub-title{
+    color: var(--subtitle);
+    margin: 0.8rem 0rem;
+    letter-spacing: 0.5px;
+   
+}
+
+section .left_section .icons{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    gap:15px;
+}
+
+section .left_section .icons a{
+    color: var(--subtitle);
+    
+}
+
+section .left_section .icons a:hover{
+    color: var(--title);
+    cursor: pointer;
+    
+}
+
+section .left_section .icons a:active{
+    scale: 0.95;
+    
+}
+
+section .right_section {
+    width: 100%;
+    translate: 80px 20px;
+}
+@media (max-width:1200px) {
+    section .right_section{
+        display: none;
+    }
+    
+}
