@@ -1,3 +1,4 @@
+import Skills from './components/2.5-mySkills/Skills'
 import Header from './components/1-header/Header'
 import Hero from './components/2-hero/Hero'
 import Main from './components/3-main/Main'
@@ -25,6 +26,9 @@ const [showbtntop, setshowbtntop] = useState(false)
         <Header/>
         <Hero/>
         <div className='divider'/>
+        <Skills/>
+        <div className='divider'/>
+
         <Main/>
         <div className='divider'/>
         <ContactUs/>
