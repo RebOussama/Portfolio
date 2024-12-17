@@ -49,6 +49,8 @@ main .right-section .card {
     border: 1px solid rgb(93,188,252,0.4);
     transition: all 0.4s;
     width: 267px;
+    min-height: 340px;
+    max-height: 460px;
  }
 
  main .right-section .card:hover {
